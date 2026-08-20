@@ -1,8 +1,9 @@
 name: check-documentation
 
 on:
-  schedule:
-    - cron: "0 9 * * *"
+  workflow_dispatch:
+  # schedule:
+  #   - cron: "0 9 * * *"
 
 jobs:
   markdown-link-check:
